@@ -20,10 +20,12 @@ export default function AboutPage() {
             About this project
           </h1>
           <p className="mt-4 text-slate-400">
-            FL Resilience is a data-focused site that surfaces real numbers on
-            Florida flood risk and coastal exposure—so residents and communities
-            can see the gap between who’s covered and who’s not, and what’s at
-            stake as seas rise.
+            FL Resilience is a data-focused site and toolset for Florida flood
+            and coastal risk. The main tool is the <strong className="text-cyan-400">Flood Tracker</strong>—an
+            interactive map of live NOAA water levels and tide predictions at
+            gauges across the state, plus long-term sea level rise context. The
+            rest of the site surfaces real numbers on the insurance gap and
+            exposure so residents and communities can act.
           </p>
         </motion.header>
 

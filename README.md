@@ -4,7 +4,8 @@ A multi-page website about **Florida flood risk and coastal resilience**, built 
 
 ## What it does
 
-- **Home** — Introduces the problem (insurance gap, sea level rise) with key stats
+- **Flood Tracker** — **Main tool**: Interactive map of Florida with NOAA CO-OPS gauges. Each marker shows **live water level** (feet, MLLW), **next high/low tide** predictions, and a note on **predicted sea level rise** (~1 ft by 2050, NOAA). Click a station on the map or in the list for full details.
+- **Home** — Introduces the problem and links to the Flood Tracker
 - **Data** — NFIP stats, Risk Rating 2.0 impact, sea level projections, high-exposure counties
 - **Solutions** — Actionable steps (insurance, elevation, CRS, preparedness) with official links
 - **About** — Mission, data sources, disclaimer

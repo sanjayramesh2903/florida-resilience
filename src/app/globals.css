@@ -60,3 +60,20 @@ body {
     transparent 50%
   );
 }
+
+/* Leaflet popup dark theme */
+.leaflet-popup-content-wrapper {
+  background: #0f172a;
+  color: #e2e8f0;
+  border: 1px solid rgba(34, 211, 238, 0.3);
+  border-radius: 12px;
+}
+.leaflet-popup-tip {
+  background: #0f172a;
+}
+.leaflet-container a.leaflet-popup-close-button {
+  color: #94a3b8;
+}
+.leaflet-container a.leaflet-popup-close-button:hover {
+  color: #22d3ee;
+}

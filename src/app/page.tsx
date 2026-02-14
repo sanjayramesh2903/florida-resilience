@@ -44,15 +44,22 @@ export default function Home() {
           transition={{ delay: 0.6 }}
         >
           <Link
-            href="/data"
+            href="/tracker"
             className="rounded-full bg-cyan-500 px-8 py-4 font-semibold text-slate-950 transition-all hover:bg-cyan-400 hover:scale-105"
+            data-cursor-hover
+          >
+            Open Flood Tracker
+          </Link>
+          <Link
+            href="/data"
+            className="rounded-full border border-cyan-500/50 px-8 py-4 font-semibold text-cyan-400 transition-all hover:border-cyan-400 hover:bg-cyan-500/10"
             data-cursor-hover
           >
             Explore the data
           </Link>
           <Link
             href="/solutions"
-            className="rounded-full border border-cyan-500/50 px-8 py-4 font-semibold text-cyan-400 transition-all hover:border-cyan-400 hover:bg-cyan-500/10"
+            className="rounded-full border border-white/20 px-8 py-4 font-semibold text-slate-300 transition-all hover:border-cyan-500/50 hover:text-white"
             data-cursor-hover
           >
             What you can do
